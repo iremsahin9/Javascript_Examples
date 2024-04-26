@@ -110,5 +110,63 @@
 // default:
 //  alert("lütfen 1-4 arasında  bir işlem seçiniz.");
 //   break;
-
 // }
+//-------------------------TYT PUAN HESAPLAMA--------------------
+/*
+?sorular
+1-türkçe 40 soru
+2-matematik 40 soru
+3-sosyal bilgiler 40 soru
+4 fen bilimleri  20 soru
+
+--------> 100 puanı ösym veriyor
+--------> max 60 puan okul veriyor
+--------> Her soru 4 puan 
+*/
+
+// let turkcedogru , turkceyanlis= 0;
+// let matematikdogru , matematikyanlis= 0;
+// let sosyaldogru,sosyalyanlis= 0;
+// let fendogru , fenyanlis= 0;
+// let puan = 0;
+// let obp=0;
+// let metin ="TYT PUAN HESAPLAMA UYGULAMASI"+"\r\n"
+// +"1-Tyt puan hesaplama"+"\r\n"
+// +"2-çıkış"+"\r\n"
+// +"Lütfen işlem seçiniz:"
+
+// let deger= prompt(metin)
+// switch(deger){
+//   case "1":
+//         obp=Number(prompt("OBP'nizi giriniz"));
+//         turkcedogru=Number(prompt("Türkçe doğru sayısı"));
+//         turkceyanlis=Number(prompt("Türkçe yanlış sayısı"));
+
+//         matematikdogru=Number(prompt("Matematik Doğru sayısı"));
+//         matematikyanlis=Number(prompt("Matematik yanlış sayısı"));
+
+//         sosyaldogru=Number(prompt("Sosyal Bilgiler doğru sayısı"));
+//         sosyalyanlis=Number(prompt("Sosyal Bilgiler yanlış sayısı"));
+
+//         fendogru=Number(prompt("Fen Bilimleri Doğru sayısı"));
+//         fenyanlis=Number(prompt("fen Bilimleri yanlış sayısı"));
+
+//         let dogru= turkcedogru+matematikdogru+sosyaldogru+fendogru;
+//         let yanlis=turkceyanlis+matematikyanlis+sosyalyanlis+fenyanlis;
+//         let dogrusayisi=dogru-(yanlis/4);
+        
+//         puan= (dogrusayisi*4)+100+obp;
+//         alert("TYT Puanınız: "+puan)
+
+//   break;
+  
+//   case"2":
+//   alert("Çıkış yapıldı.");
+//   break;
+
+//   default:
+//     alert("işlem seçiniz");
+//     break;
+// }
+
+
