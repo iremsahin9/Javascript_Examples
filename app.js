@@ -64,3 +64,51 @@
 //     alert(" İdeal kilonun çok üstünde (morbid obez): "+endeks);  
 // }
 //\r\n=yeni satır yaratır
+//alt+shift+f = kodları düzenler
+//----------------------------------------ATM UYGULAMASI----------------------------------------------------
+/*
+1-Bakiye görüntüleme
+2-para çekme
+3-para yatırma
+4-çıkış
+
+*/
+// let yenisatır="\r\n";
+
+// let metin = "1-Bakiye görüntüleme"+yenisatır
+// +"2-para çekme"+yenisatır
+// +"3-para yatırma"+yenisatır
+// +"4-çıkış"+yenisatır
+// +"lütfen seçim yapınız:";
+// let bakiye=Number("1500");
+
+// let deger=prompt(metin);
+
+// switch(deger){
+// case "1":
+//   alert("BAKİYENİZ: "+bakiye)
+// break;
+// case"2":
+//  let cekilecektutar=Number(prompt("Çekilecek tutarı giriniz:"));
+//  if(cekilecektutar<bakiye){
+//   bakiye=bakiye-cekilecektutar;
+//   alert("Bakiyeniz: "+ bakiye);
+//  }
+//  else{
+//      alert("Bakiyenizi kontrol ediniz."+yenisatır
+//      +"Bakiyeniz"+bakiye)
+//  }
+// break;
+// case"3":
+// let yatirilacaktutar=Number(prompt("Yatırılacak tutarı giriniz:"));
+// bakiye=bakiye+yatirilacaktutar;
+// alert("Güncel Bakiyeniz"+bakiye)
+// break;
+// case"4":
+// console.log("çıkış yapıldı.")
+// break;
+// default:
+//  console.log("lütfen 1-4 arasında  bir işlem seçiniz.");
+//   break;
+
+// }
