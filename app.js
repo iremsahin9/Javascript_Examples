@@ -105,10 +105,10 @@
 // alert("Güncel Bakiyeniz"+bakiye)
 // break;
 // case"4":
-// console.log("çıkış yapıldı.")
+// alert("çıkış yapıldı.")
 // break;
 // default:
-//  console.log("lütfen 1-4 arasında  bir işlem seçiniz.");
+//  alert("lütfen 1-4 arasında  bir işlem seçiniz.");
 //   break;
 
 // }
