@@ -1,3 +1,4 @@
+//-------------------------------------------------------ARAYÜZÜ OLMAYAN KOD İLE  YAPTIĞIM ÖRNEKLER-----------------------------------
 // -------------DERS ORTALAMASI BULMA-----------------------------
 
 // let vize = Number(prompt("Vize notunuz:"));
@@ -168,5 +169,30 @@
 //     alert("işlem seçiniz");
 //     break;
 // }
+//---------------------------Çarpım tablosu uygulaması-------------------------------------------
 
+// for(let i=1; i<=10; i++){
+//  for(let j=1;j<=10;j++){
+//   console.log(i+"x"+j+"="+(i*j))
+//  }
+// console.log("-------------------------------------")
+// }
+//----------------------Asal sayı bulma uygulaması---------------
+// let sayi=Number(prompt("Lütfen Bir sayı giriniz:"));
 
+// for(let i=2 ; i<=Math.floor(sayi/2); i++){
+//      if(sayi%i==0){
+//     alert(sayi  +""+"Asal değildir")
+//      break;
+//      }
+//      else{
+//       alert(sayi+""+":Asaldır.")
+//      }
+// }
+//-----------------------Faktöriyel bulma uygulaması-------------
+// let sayi =Number(prompt("Bir sayı giriniz:"));
+// let carpim=1;
+// for(let i=1;i<=sayi;i++){
+//      carpim=carpim*i
+// }
+// alert("sonuç : "+carpim)
