@@ -196,3 +196,19 @@
 //      carpim=carpim*i
 // }
 // alert("sonuç : "+carpim)
+//-------------------------HARF SAYISI UYGULAMASI--------------------------------------------
+// let metin="Şuan javascript çalışıyorum";
+
+// let harf=prompt("Harfi giriniz:");
+
+// let sonuc =bul(harf);
+// alert("harf sayısı : "+""+sonuc);
+
+// function bul(harf){
+//   let toplam=0;
+// for(i=0; i<metin.length;i++)
+// if(metin.charAt(i).toLowerCase()===harf.toLowerCase()){
+//   toplam+=1;
+// }
+// return toplam;
+// }
